@@ -8,7 +8,7 @@
 
    Appelons xi le nombre de la i-ème génération de papillons. Voici un modèle pour l'évolution de xi:
 
-[equation](include/calculation.png)
+![equation](include/calculation.png)
 
 Afin d'étudier cette évolution, il est demandé de tracer deux choses :
 
@@ -19,10 +19,10 @@ Afin d'étudier cette évolution, il est demandé de tracer deux choses :
 Dans les deux cas, votre programme doit afficher sur la sortie standard les valeurs à entrer dans gnuplot pour dessiner les graphes comme ci-dessus:
 
 ### Output
-[output](/include/output.png)
+![output](include/output.png)
 
 ### Graphs
-[drawergnu](include/drawergnu.png)
+![drawergnu](include/drawergnu.png)
 
 Les graphes dépendent donc des paramètres de calcul mais aussi des paramètres que l'on donne dans le le fichier "drawer.gnu". En effet on utilise la redirection en rentrant cette commande ""cat drawer.gnu | gnuplot"" directement dans le terminal de gnuplot.
 Vous pouvez vous amuser à modifier tout les paramètres et étudier les diferents comportemens.
@@ -36,7 +36,7 @@ Vous pouvez vous amuser à modifier tout les paramètres et étudier les diferen
 
    Let xi be the number of the ith generation of butterflies. Here is a model for the evolution of xi:
 
-[equation](include/calculation.png)
+![equation](include/calculation.png)
 
 In order to study this evolution, you are asked to plot two things:
 
@@ -47,10 +47,10 @@ In order to study this evolution, you are asked to plot two things:
 In both cases, your program shall print on the standard output the values to be entered into gnuplot to draw the graphs as follows :
 
 ### Output
-[output](/include/output.png)
+![output](/include/output.png)
 
 ### Graphs
-[drawergnu](include/drawergnu.png)
+![drawergnu](include/drawergnu.png)
 
 The graphs depend on the calculation parameters as well as the parameters provided in the "drawer.gnu" file. Indeed, we use redirection by entering the command "cat drawer.gnu | gnuplot" directly into the gnuplot terminal.
 
